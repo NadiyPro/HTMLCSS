@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+.box-color {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    margin: 40px 0;
+}
+#first {
+    background-color: cyan;
+}
+#two {
+    background-color: darkgreen;
+}
+#three {
+    background-color: greenyellow;
+}
