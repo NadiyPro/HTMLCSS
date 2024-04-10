@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+.size {
+    height: 100vh;
+}
+.first{
+    background-image: url("imagefon1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two {
+    background-image: url("imegefon2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.three {
+    background-image: url("imegefon3.png");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*-----------------------------------------1slide--------------------------------------------------------------------*/
+.first_slide {
+    width: 1058px;
+    height: 393px;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.forest img {
+    width: 529px;
+    height: 393px;
+    background-size: cover;
+    background-position: center;
+}
+.text_bloc1 {
+    width: 529px;
+    height: 393px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text_bloc1 h1 {
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 53px 151px 0 125px;
+}
+.text_bloc1 p {
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 44px 117px 44px 119px;
+}
+.text_bloc1 button {
+    width: 409px;
+    height: 76px;
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 60px 84px 61px;
+}
+/*-------------------------2slide----------------------------------------------*/
+.two iframe {
+    width: 63vw;
+    height: 52vh;
+    margin: 105px 282px 110px 281px;
+}
+.text_bloc2{
+    width: 63vw;
+    height: 18vh;
+    margin: 0 282px 87px 281px;
+}
+.text_bloc2 h1,p {
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+/*-------------------------3slide----------------------------------------------*/
+.size_bloc {
+    width: 454px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 22px 0 23px;
+}
+.size_bloc h2,h3 {
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.size_bloc button {
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 25px 0 104px 0;
+}
+.text_bloc3 {
+    margin: 156px 40px 173px 35px;
+}
+.text_bloc4 {
+    margin: 156px 0 173px 0;
+}
+.text_bloc5 {
+    margin: 156px 26px 173px 50px;
+}
+.size_bloc h2 {
+    margin: 32px 147px 24px 147px;
+}
+.money {
+    margin-top: 62px;
+}
+.condition {
+    margin: 0;
+}
