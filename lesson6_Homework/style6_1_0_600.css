@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 30px;
+    }
+    nav{
+        height: 28vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav div {
+        width: 100%;
+        height: 6vh;
+    }
+    header{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        height: 82vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section div{
+        width: 100%;
+        height: 17vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
