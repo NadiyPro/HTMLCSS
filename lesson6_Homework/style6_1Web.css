@@ -1,0 +1,80 @@
+body{
+    margin: 10px;
+    font-size: 35px;
+    height: 100vh;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav div{
+    width: 10vh;
+    height: 8vh;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+nav div:nth-child(1){
+    margin-right: 5px;
+}
+nav div:nth-child(2){
+    margin-right: 5px;
+}
+nav div:nth-child(3){
+    margin-right: 5px;
+}
+header{
+    height: 30vh;
+    background-color: cadetblue;
+    color: white;
+    font-size: 1em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+header p{
+    margin: 0;
+}
+section{
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section div{
+    width: 48%;
+    height: 18vh;
+    background-color: cadetblue;
+    color: white;
+    font-size: 1em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+section p{
+    margin: 0;
+}
+footer{
+    height: 8vh;
+    background-color: cadetblue;
+    color: white;
+    font-size: 0.6em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
