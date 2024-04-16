@@ -1,0 +1,79 @@
+body{
+    margin: 5px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 25vh;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.large_box{
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner_box{
+    width: 70vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner_box>section{
+    width: 70vw;
+    height: 45vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.box{
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box>section:nth-child(1){
+    width: 23vw;
+    height: 30vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.box>section:nth-child(2){
+    width: 23vw;
+    height: 30vh;
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.box>section:nth-child(3){
+    width: 23vw;
+    height: 30vh;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 30vw;
+    height: 75vh;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

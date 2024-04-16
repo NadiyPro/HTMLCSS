@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px){
+    .large_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .inner_box{
+        width: 100%;
+        height: 75vh;
+    }
+    .inner_box>section{
+        width: 100%;
+        height: 30vh;
+    }
+    .box{
+        width: 100%;
+        height: 20vh;
+
+    }
+    .inner_box>.box>section{
+        width: 33%;
+        height: 20vh;
+    }
+    aside{
+        width: 100%;
+        height: 25vh;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
