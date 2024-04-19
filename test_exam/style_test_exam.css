@@ -294,21 +294,32 @@ img{
 
 /*---------------------Третья часть----------------------*/
 /*---------------------Четвертая часть-------------------*/
-.news {
+
+/*.wrapper{*/
+/*    max-width: 1440px;*/
+/*    min-height: 100%;*/
+/*    margin: auto;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+.news, .main-news {
+    max-width: 1440px;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    max-width: 1440px;
-}
-.main-news{
     padding: 152px 0 0 0;
 }
 .box-news{
-    width: 80vw;
+    max-width: 80vw;;
     height: 52vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    flex-direction: row;
 }
 .inner-box{
     width: 25vw;
@@ -318,12 +329,13 @@ img{
     box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-direction: column;
 }
 .inner-box img{
     width: 25vw;
     height: 29vh;
+    /*gap: 30px;*/
 }
 .inner-box:nth-child(1){
     margin-right: 30px;
@@ -335,6 +347,10 @@ img{
     width: 25vw;
     height: 23vh;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 .h2-news{
     color: #000;
