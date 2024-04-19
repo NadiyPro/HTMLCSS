@@ -1,7 +1,6 @@
 @media screen and (min-width: 601px) and (max-width: 1100px) {
     .news {
         height: 125vh;
-        padding: 70px 0 0 0;
     }
     /*.general-width{*/
     /*    display: flex;*/
