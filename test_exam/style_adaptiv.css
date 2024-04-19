@@ -4,8 +4,15 @@
 }
 body {
     width: 100vw;
-    height: 100vh;
     font-family: "Open Sans", sans-serif;
+}
+.wrapper{
+    max-width: 1440px;
+    min-height: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .general-width {
     width: 80vw;
@@ -17,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .copyright-footer{
     font-family: Poppins, sans-serif;
+    color: #fff;
 }
 a {
     text-decoration: none;
