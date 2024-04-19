@@ -1,3 +1,62 @@
 @media screen and (max-width: 600px) {
-
+/*    .news {*/
+/*        height: 135vh;*/
+/*    }*/
+/*    .main-news{*/
+/*        height: 135vh;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        flex-direction: column;*/
+/*        padding: 70px 0 0 0;*/
+/*    }*/
+/*    .box-news{*/
+/*        width: 35vw;*/
+/*        height: 200vh;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-content: center;*/
+/*        !*flex-direction: column;*!*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*    .inner-box{*/
+/*        margin-bottom: 30px;*/
+/*        width: 35vw;*/
+/*        height: 40vh;*/
+/*    }*/
+/*    .inner-box:nth-child(1){*/
+/*        margin-right: 0;*/
+/*    }*/
+/*    .inner-box:nth-child(2){*/
+/*        margin-right: 0;*/
+/*    }*/
+/*    .inner-box img{*/
+/*        width: 35vw;*/
+/*        height: 19vh;*/
+/*    }*/
+/*    .text-box{*/
+/*        width: 35vw;*/
+/*        height: 21vh;*/
+/*        text-align: left;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-content: center;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*    .h2-news{*/
+/*        font-size: 43px;*/
+/*    }*/
+/*    .p-news{*/
+/*        font-size: 18px;*/
+/*    }*/
+/*    .h3-text-box{*/
+/*        font-size: 32px;*/
+/*    }*/
+/*    .p-text-box{*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    .a-text-box{*/
+/*        font-size: 16px;*/
+/*    }*/
+/*}*/
 }
