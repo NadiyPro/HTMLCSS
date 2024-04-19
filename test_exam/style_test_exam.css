@@ -296,12 +296,12 @@ img{
 /*---------------------Третья часть----------------------*/
 /*---------------------Четвертая часть-------------------*/
 
-.news {
+.news, .main-news {
     max-width: 1440px;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-direction: column;
     text-align: center;
     padding: 152px 0 0 0;
